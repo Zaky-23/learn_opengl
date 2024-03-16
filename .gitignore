@@ -1,0 +1,11 @@
+.cache
+third_party/glfw
+third_party/glm
+third_party/spdlog
+CMakeFiles/*
+CMakeCache.txt
+compile_commands.json
+learn_opengl
+Makefile
+cmake_install.cmake
+CMakeCache.txt
