@@ -5,10 +5,6 @@
 #include "core/program.hpp"
 #include "core/vertex_array.hpp"
 #include "core/vertex_buffer.hpp"
-#include "glm/ext/matrix_clip_space.hpp"
-#include "glm/ext/matrix_projection.hpp"
-#include "glm/fwd.hpp"
-#include "glm/trigonometric.hpp"
 #include "util/log.hpp"
 #include "util/opengl_debug.hpp"
 
