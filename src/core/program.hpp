@@ -4,8 +4,8 @@
 #include <string_view>
 #include <unordered_map>
 
-#include "glad/gl.h"
-#include "glm/glm.hpp"
+#include <glad/gl.h>
+#include <glm/glm.hpp>
 
 namespace core {
 class ShaderProgram {
