@@ -11,7 +11,7 @@ friend class ImageBuilder;
 
 private:
   Image(int32_t width, int32_t height, int32_t number_of_channels, void *data) : width_(width), height_(height), 
-  number_of_channels_(number_of_channels), data_(std::shared_ptr<void>(data)) {};
+  number_of_channels_(number_of_channels), data_(nullptr) {};
 
 private:
   int32_t width_;
