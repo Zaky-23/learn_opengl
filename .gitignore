@@ -3,6 +3,8 @@ CMakeFiles/*
 CMakeCache.txt
 compile_commands.json
 learn_opengl
+learn_opengl.exe
+learn_opengl.pdb
 Makefile
 cmake_install.cmake
 CMakeCache.txt
