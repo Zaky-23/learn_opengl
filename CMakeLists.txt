@@ -42,4 +42,4 @@ add_subdirectory(${GLM_DIR})
 
 add_executable(${PROJECT_NAME} ${SRC} ${GLAD_SRC} ${STB_IMAGE_SRC})
 
-target_link_libraries(${PROJECT_NAME} glfw OpenGL::OpenGL glm::glm spdlog::spdlog)
+target_link_libraries(${PROJECT_NAME} glfw glm::glm ${OPENGL_LIBRARY} spdlog::spdlog)
